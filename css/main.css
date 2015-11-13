@@ -11,13 +11,27 @@ body{
 .jumbotron{
   color:black;
   /*background-color: rgb(135, 139, 194);*/
+}
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
 
+.carousel-inner .item > img{
+  position: absolute;
+  max-width: none;
 }
 cite{
   text-align: right;
 }
 h1{
   font-family: 'Nothing You Could Do', cursive;
+}
+li{
+  display: inline;
 }
 /*@media screen and (min-width: 650px){
   body{
