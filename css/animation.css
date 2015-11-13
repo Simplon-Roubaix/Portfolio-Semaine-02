@@ -1,22 +1,22 @@
 #wrapper{
-  width: 40em;
-  -webkit-perspective: 800;
+  width: 12em;
+  -webkit-perspective: 1200;
 }
 
 #allPlan{
-  width: 10em;
-  height: 14em;
+  width: 2em;
+  /*height: 3em;*/
   margin: 0 auto;
-  -webkit-transform-style: preserve-3d; /* pour avoir l'effet 3D */ 
-  -webkit-animation: Caroussel 10s infinite linear;
+  -webkit-transform-style: preserve-3d; /* pour avoir l'effet 3D */
+  -webkit-animation: Caroussel 20s infinite linear;
 }
 
 .plan{
   position: absolute;
-  height: 14em;
-  width: 14em;
+  height: 6em;
+  width: 6em;
   text-align: center;
-  font-size: 8em;
+  font-size: 0.8em;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);;
 }
@@ -32,5 +32,20 @@
   -webkit-transform: rotateY(45deg) translateZ(30em);
 }
 #allPlan > .p3 {
-  -webkit-transform: rotateY(-45deg) translateZ(30em);
+  -webkit-transform: rotateY(90deg) translateZ(30em);
+}
+#allPlan > .p4 {
+  -webkit-transform: rotateY(135deg) translateZ(30em);
+}
+#allPlan > .p5 {
+  -webkit-transform: rotateY(180deg) translateZ(30em);
+}
+#allPlan > .p6 {
+  -webkit-transform: rotateY(225deg) translateZ(30em);
+}
+#allPlan > .p7 {
+  -webkit-transform: rotateY(270deg) translateZ(30em);
+}
+#allPlan > .p8 {
+  -webkit-transform: rotateY(315deg) translateZ(30em);
 }
