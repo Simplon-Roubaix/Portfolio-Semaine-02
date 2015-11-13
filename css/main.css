@@ -5,16 +5,26 @@
 body{
   background-color: #13344a;
   color: white;
+  padding-top: 2%;
+  padding-bottom: 1.5em;
 }
 .jumbotron{
   color:black;
-  background-color: rgb(135, 139, 194);
+  /*background-color: rgb(135, 139, 194);*/
+
+}
+cite{
+  text-align: right;
 }
 h1{
-  font-family: fantasy;
+  font-family: 'Nothing You Could Do', cursive;
 }
-@media screen and (min-width: 650px){
+/*@media screen and (min-width: 650px){
   body{
     background-image: url('../img/WallPaper_Semaine02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
   }
-}
+}*/
