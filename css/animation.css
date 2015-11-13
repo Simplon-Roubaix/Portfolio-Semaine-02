@@ -7,7 +7,8 @@
   width: 10em;
   height: 14em;
   margin: 0 auto;
-  -webkit-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d; /* pour avoir l'effet 3D */ 
+  -webkit-animation: Caroussel 10s infinite linear;
 }
 
 .plan{
@@ -20,6 +21,16 @@
   background-color: rgba(0, 0, 0, 0.5);;
 }
 
-#allPlan > p1 {
-  -webkit-transform: translateZ(14em;)
+@-webkit-keyframes Caroussel{
+  from { -webkit-transform: rotateY(0);}
+  to { -webkit-transform: rotateY(360deg);}
+}
+#allPlan > .p1 {
+  -webkit-transform: translateZ(30em);
+}
+#allPlan > .p2 {
+  -webkit-transform: rotateY(45deg) translateZ(30em);
+}
+#allPlan > .p3 {
+  -webkit-transform: rotateY(-45deg) translateZ(30em);
 }
