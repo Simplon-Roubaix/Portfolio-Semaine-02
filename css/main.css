@@ -1,22 +1,20 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body{
+  background-color: #13344a;
+  color: white;
+}
+.jumbotron{
+  color:black;
+  background-color: rgb(135, 139, 194);
+}
+h1{
+  font-family: fantasy;
+}
+@media screen and (min-width: 650px){
+  body{
+    background-image: url('../img/WallPaper_Semaine02.jpg');
+  }
+}
