@@ -8,6 +8,7 @@
   /*height: 3em;*/
   margin: 0 auto;
   -webkit-transform-style: preserve-3d; /* pour avoir l'effet 3D */
+  /*transform-style: preserve-3d; /* pour avoir l'effet 3D */
   -webkit-animation: Caroussel 20s infinite linear;
 }
 

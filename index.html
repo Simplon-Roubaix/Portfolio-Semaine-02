@@ -38,7 +38,7 @@
 
 
   <!--  Coeur de page  -->
-  <article class="container">
+  <section id="main" class="container">
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
@@ -48,65 +48,50 @@
       </div>
 
       <!--  Carousel   -->
-      <section id="wrapper">
+      <article id="wrapper" class="col-md-offset-2 col-md-4">
           <div id=allPlan>
-              <div class="plan p1">1</div>
-              <div class="plan p2">2</div>
-              <div class="plan p3">3</div>
-
+              <div class="plan p1"><a href="google.fr"><img src="img/structure-type-html.png" alt=""></a></div>
+              <div class="plan p2"><img src="img/logo_simplon.png" alt=""></div>
+              <div class="plan p3"><img src="img/logo_simplon.png" alt=""></div>
+              <div class="plan p4"><img src="img/logo_simplon.png" alt=""></div>
+              <div class="plan p5"><img src="img/logo_simplon.png" alt=""></div>
+              <div class="plan p6"><img src="img/logo_simplon.png" alt=""></div>
+              <div class="plan p7"><img src="img/logo_simplon.png" alt=""></div>
+              <div class="plan p8"><img src="img/logo_simplon.png" alt=""></div>
           </div>
-
-      </section>
+      </article>
       <!--  /Carousel   -->
-
-
     </div>
     <hr>
-  </article>
-  <!--  Coeur de page  -->
+  </section>
+  <!--  /main  -->
 
   <footer>
       <!--/.navbar placée en footer -->
     <section id="nav" class="navbar-header">
       <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
         <div class="container">
-          <div class="container">
+          <!--div class="container"-->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">&copy; Design by Didier &amp; Fran&ccedil;ois</a>
             </div>
+            <!--/.navbar-collapse -->
             <ul id="navbar" class="navbar-collapse collapse navbar-right">
-              <li>
-                <button type="button" class="btn btn-info">Francois</button>
-              </li>
-              <li>
-                <button type="button" class="btn btn-info">Didier</button>
-              </li>
+              <li> <button type="button" class="btn btn-info">Francois</button> </li>
+              <li> <button type="button" class="btn btn-info">Didier</button> </li>
             </ul>
-      <!--/.navbar-collapse -->
-      </div>
+        </div>
       </nav>
-      <p></p>
-
     </section>
-    <!--Section Menu -->
-
-    <!--Section Menu -->
-
   </footer>
   <!-- /container -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')
-  </script>
-
+  <script> window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>') </script>
   <script src="js/vendor/bootstrap.min.js"></script>
-
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 </body>
