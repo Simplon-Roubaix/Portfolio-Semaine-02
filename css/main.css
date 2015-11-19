@@ -4,8 +4,7 @@
    Author's custom styles
    ========================================================================== */
 
-
-   body {
+body {
       margin-top: 40px;
       background-image: url('../img/water.jpg');
      /* body {
@@ -13,3 +12,10 @@
           padding-bottom: 20px;
       }*/
    }
+jumbotron{
+	background-color: #B6C9DE;
+  border-radius: 20px;
+}
+h1{
+  font-family: 'Offside', cursive;
+}
