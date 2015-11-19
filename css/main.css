@@ -5,34 +5,136 @@
    ========================================================================== */
 
 body {
-      margin-top: 2em;
+    margin-top: 2em;
    	background-color: #EEE;
-     /* body {
-          padding-top: 50px;
-          padding-bottom: 20px;
-      }*/
    }
 .myTouch{
-	background-color: #a4bcd6 ;
+	background-color: #a4bcd6;
   font-size: 1em;
   font-weight: bolder;
 
   font-family: 'Nothing You Could Do', cursive;
   font-size: 1.4em;
 }
+.didier, .francois{
+   font-size: 3em;
+
+      animation-delay: 1.5s;
+      -moz-animation-delay: 1.5s;
+      -webkit-animation-delay: 1.5s;
+}
 #sidebar-nav ul {
    list-style: none;
    padding-left: 0;
 }
 #sidebar-nav a {
-   background: #428bca;
+   background: #a4bcd6;
    color: #FFF;
    display: block;
+   margin-bottom: 10px;
+   padding: 20px;
  }
+ #sidebar-nav a:hover {
+    background: #3276b1;
+    text-decoration: none;
+ }
+ /* Delay sur les animations */
+/* side bar */
+ #side-home {
+    animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+ }
+ #side-francois {
+    animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+ }
+ #side-didier {
+    animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+ }
+ #side-contact {
+    animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+ }
+/* Timing sur les lettres logos */
+.dd {
+   animation-delay: 0.2s;
+   -moz-animation-delay: 0.2s;
+   -webkit-animation-delay: 0.2s;
+}
+.di {
+   animation-delay: 0.8s;
+   -moz-animation-delay: 0.8s;
+   -webkit-animation-delay: 0.8s;
+}
+.dc {
+   animation-delay: 1s;
+   -moz-animation-delay: 1s;
+   -webkit-animation-delay: 1s;
+}
+.dj {
+   animation-delay: 1.4s;
+   -moz-animation-delay: 1.4s;
+   -webkit-animation-delay: 1.4s;
+}
+.de {
+   animation-delay: 0.4s;
+   -moz-animation-delay: 0.4s;
+   -webkit-animation-delay: 0.4s;
+}
+.dr {
+   animation-delay: 1.2s;
+   -moz-animation-delay: 1.2s;
+   -webkit-animation-delay: 1.2s;
+}
+.ff {
+   animation-delay: 1.4s;
+   -moz-animation-delay: 1.4s;
+   -webkit-animation-delay: 1.4s;
+}
+.fr {
+   animation-delay: 0.4s;
+   -moz-animation-delay: 0.4s;
+   -webkit-animation-delay: 0.4s;
+}
+.fa {
+   animation-delay: 0.6s;
+   -moz-animation-delay: 0.6s;
+   -webkit-animation-delay: 0.6s;
+}
+.fn {
+   animation-delay: 0.5s;
+   -moz-animation-delay: 0.5s;
+   -webkit-animation-delay: 0.5s;
+}
+.fc {
+   animation-delay: 1.1s;
+   -moz-animation-delay: 1.1s;
+   -webkit-animation-delay: 1.1s;
+}
+.fo {
+   animation-delay: 0.7s;
+   -moz-animation-delay: 0.7s;
+   -webkit-animation-delay: 0.7s;
+}
+.fi {
+   animation-delay: 0.3s;
+   -moz-animation-delay: 0.3s;
+   -webkit-animation-delay: 0.3s;
+}
+.fs {
+   animation-delay: 0.5s;
+   -moz-animation-delay: 0.5s;
+   -webkit-animation-delay: 0.5s;
+}
 @media screen and (min-width: 590px) {
   body{ background-image: url('../img/water.jpg'); }
   .myTouch { font-size: .9em; border-radius: 20px; }
 }
 @media screen and (min-width: 770px) {
-  .myTouch { font-size: 1.5em; }
+  .myTouch { font-size: 2em; }
 }
