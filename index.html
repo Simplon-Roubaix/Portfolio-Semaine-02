@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
   	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
   	<link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -28,9 +29,9 @@
         <![endif]-->
 
 
-          <section id="titre" class="container jumbotron">
-            <h1>De la musique avant toute chose!</h1>
-            <cite>Paul Verlaine</cite>
+          <section id="titre" class="container myTouch  text-right">
+            <blockquote>De la musique avant toute chose!</blockquotes>
+            <pre>Paul Verlaine</pre>
           </section>
 
           <hr>
@@ -61,6 +62,27 @@
                   </span>
               </div>
           </header>
+            <!-- #sidebar.col-sm-4>nav#sidebar-nav>ul>(li>a#side-home.animated)*4  -->
+            <div id="sidebar" class="col-sm-4">
+              <nav id="sidebar-nav">
+                <ul>
+                  <!-- utilistaion class bounceInLeft pour effet apparition par la gauche -->
+                  <li><a href="index.html" id="side-home" class="animated bounceInLeft">Accueil</a></li>
+                  <li><a href="Portfolio_Didier.html" id="side-didier" class="animated bounceInLeft">Portfolio Didier</a></li>
+                  <li><a href="Portfolio_Francois.html" id="side-francois" class="animated bounceInLeft">Portfolio Fran&ccedil;ois</a></li>
+                  <li><a href="#" id="side-contact" class="animated bounceInLeft" >Contact</a>
+                </ul>
+              </nav>
+            </div>
+            <!--.col-sm-8#content.text-center>.row>(.col-sm-4>img.img-responsive)*4 -->
+              <div class="col-sm-8 text-center" id="content">
+                <div class="row">
+                  <div class="col-sm-4"><img src="img/BBKing_Bono.jpg" alt="BB King and Bono" class="img-responsive"></div>
+                  <div class="col-sm-4"><img src="img/coldplay01.jpg" alt="Chris Martin from Coldplay" class="img-responsive"></div>
+                  <div class="col-sm-4"><img src="img/water.jpg" alt="En attendant mieux!" class="img-responsive"></div>
+                  <div class="col-sm-4"><img src="img/BBKing_Bono_xs.jpg.png" alt="petite image" class="img-responsive"></div>
+                </div>
+              </div>
 
 
         </section>
@@ -72,13 +94,12 @@
 
   </div>
   <!-- /container -->
+
+
+  <!-- Appels JS  -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')
-  </script>
-
+  <script> window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>') </script>
   <script src="js/vendor/bootstrap.min.js"></script>
-
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 </body>

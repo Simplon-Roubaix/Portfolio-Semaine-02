@@ -5,17 +5,34 @@
    ========================================================================== */
 
 body {
-      margin-top: 40px;
-      background-image: url('../img/water.jpg');
+      margin-top: 2em;
+   	background-color: #EEE;
      /* body {
           padding-top: 50px;
           padding-bottom: 20px;
       }*/
    }
-jumbotron{
-	background-color: #B6C9DE;
-  border-radius: 20px;
+.myTouch{
+	background-color: #a4bcd6 ;
+  font-size: 1em;
+  font-weight: bolder;
+
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 1.4em;
 }
-h1{
-  font-family: 'Offside', cursive;
+#sidebar-nav ul {
+   list-style: none;
+   padding-left: 0;
+}
+#sidebar-nav a {
+   background: #428bca;
+   color: #FFF;
+   display: block;
+ }
+@media screen and (min-width: 590px) {
+  body{ background-image: url('../img/water.jpg'); }
+  .myTouch { font-size: .9em; border-radius: 20px; }
+}
+@media screen and (min-width: 770px) {
+  .myTouch { font-size: 1.5em; }
 }
