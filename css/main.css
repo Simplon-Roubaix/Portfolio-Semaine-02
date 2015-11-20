@@ -19,9 +19,9 @@ body {
   color: #000;
   font-family: 'Nothing You Could Do', cursive;
    font-size: 2.9em;
-   margin-bottom: 3em;
-   margin-top: 3em;
-   white-space: nowrap;
+
+   /*white-space: nowrap;*/
+   display: inline-block;
 }
 /*  Vs entre 2 */
 .versus { color: #000; font-size: 2em; }
@@ -70,5 +70,5 @@ body {
 }
 @media screen and (min-width: 770px) {
   .myTouch { font-size: 2em; }
-  .didier, .francois{     color: #FFF; font-size: 5em; margin-bottom: 3em; margin-top: 3em; }
+  .didier, .francois{     color: #FFF; font-size: 5em; margin-bottom: 1.5em; margin-top: 1.5em; }
 }
