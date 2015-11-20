@@ -17,11 +17,11 @@ body {
   font-size: 1.4em;
 }
 .didier, .francois{
-   font-size: 3em;
-
-      animation-delay: 1.5s;
-      -moz-animation-delay: 1.5s;
-      -webkit-animation-delay: 1.5s;
+  color: #FFF;
+  font-family: 'Nothing You Could Do', cursive;
+   font-size: 5em;
+   margin-bottom: 3em;
+   margin-top: 3em;
 }
 #sidebar-nav ul {
    list-style: none;
@@ -38,103 +38,33 @@ body {
     background: #3276b1;
     text-decoration: none;
  }
- /* Delay sur les animations */
+ /* Temporisation sur les animations */
 /* side bar */
- #side-home {
-    animation-delay: 0.2s;
-    -moz-animation-delay: 0.2s;
-    -webkit-animation-delay: 0.2s;
- }
- #side-francois {
-    animation-delay: 0.6s;
-    -moz-animation-delay: 0.6s;
-    -webkit-animation-delay: 0.6s;
- }
- #side-didier {
-    animation-delay: 0.8s;
-    -moz-animation-delay: 0.8s;
-    -webkit-animation-delay: 0.8s;
- }
- #side-contact {
-    animation-delay: 0.3s;
-    -moz-animation-delay: 0.3s;
-    -webkit-animation-delay: 0.3s;
- }
+ #side-home { animation-delay: 0.2s; -moz-animation-delay: 0.2s; -webkit-animation-delay: 0.2s; }
+ #side-francois { animation-delay: 0.6s; -moz-animation-delay: 0.6s; -webkit-animation-delay: 0.6s; }
+ #side-didier { animation-delay: 0.8s; -moz-animation-delay: 0.8s; -webkit-animation-delay: 0.8s; }
+ #side-contact { animation-delay: 0.3s; -moz-animation-delay: 0.3s; -webkit-animation-delay: 0.3s; }
 /* Timing sur les lettres logos */
-.dd {
-   animation-delay: 0.2s;
-   -moz-animation-delay: 0.2s;
-   -webkit-animation-delay: 0.2s;
-}
-.di {
-   animation-delay: 0.8s;
-   -moz-animation-delay: 0.8s;
-   -webkit-animation-delay: 0.8s;
-}
-.dc {
-   animation-delay: 1s;
-   -moz-animation-delay: 1s;
-   -webkit-animation-delay: 1s;
-}
-.dj {
-   animation-delay: 1.4s;
-   -moz-animation-delay: 1.4s;
-   -webkit-animation-delay: 1.4s;
-}
-.de {
-   animation-delay: 0.4s;
-   -moz-animation-delay: 0.4s;
-   -webkit-animation-delay: 0.4s;
-}
-.dr {
-   animation-delay: 1.2s;
-   -moz-animation-delay: 1.2s;
-   -webkit-animation-delay: 1.2s;
-}
-.ff {
-   animation-delay: 1.4s;
-   -moz-animation-delay: 1.4s;
-   -webkit-animation-delay: 1.4s;
-}
-.fr {
-   animation-delay: 0.4s;
-   -moz-animation-delay: 0.4s;
-   -webkit-animation-delay: 0.4s;
-}
-.fa {
-   animation-delay: 0.6s;
-   -moz-animation-delay: 0.6s;
-   -webkit-animation-delay: 0.6s;
-}
-.fn {
-   animation-delay: 0.5s;
-   -moz-animation-delay: 0.5s;
-   -webkit-animation-delay: 0.5s;
-}
-.fc {
-   animation-delay: 1.1s;
-   -moz-animation-delay: 1.1s;
-   -webkit-animation-delay: 1.1s;
-}
-.fo {
-   animation-delay: 0.7s;
-   -moz-animation-delay: 0.7s;
-   -webkit-animation-delay: 0.7s;
-}
-.fi {
-   animation-delay: 0.3s;
-   -moz-animation-delay: 0.3s;
-   -webkit-animation-delay: 0.3s;
-}
-.fs {
-   animation-delay: 0.5s;
-   -moz-animation-delay: 0.5s;
-   -webkit-animation-delay: 0.5s;
-}
+.dd {  animation-delay: 0.2s; -moz-animation-delay: 0.2s; -webkit-animation-delay: 0.2s; }
+.di {  animation-delay: 0.8s; -moz-animation-delay: 0.8s; -webkit-animation-delay: 0.8s; }
+.dc {  animation-delay: 1s; -moz-animation-delay: 1s; -webkit-animation-delay: 1s; }
+.dj {  animation-delay: 1.4s; -moz-animation-delay: 1.4s; -webkit-animation-delay: 1.4s; }
+.de {  animation-delay: 0.4s; -moz-animation-delay: 0.4s; -webkit-animation-delay: 0.4s; }
+.dr {  animation-delay: 1.2s; -moz-animation-delay: 1.2s; -webkit-animation-delay: 1.2s; }
+.ff {  animation-delay: 1.4s; -moz-animation-delay: 1.4s; -webkit-animation-delay: 1.4s; }
+.fr {  animation-delay: 0.4s; -moz-animation-delay: 0.4s; -webkit-animation-delay: 0.4s; }
+.fa {  animation-delay: 0.6s; -moz-animation-delay: 0.6s; -webkit-animation-delay: 0.6s; }
+.fn {  animation-delay: 0.5s; -moz-animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.fc {  animation-delay: 1.1s; -moz-animation-delay: 1.1s; -webkit-animation-delay: 1.1s; }
+.fo {  animation-delay: 0.7s; -moz-animation-delay: 0.7s; -webkit-animation-delay: 0.7s; }
+.fi {  animation-delay: 0.3s; -moz-animation-delay: 0.3s; -webkit-animation-delay: 0.3s; }
+.fs {  animation-delay: 0.5s; -moz-animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 @media screen and (min-width: 590px) {
   body{ background-image: url('../img/water.jpg'); }
   .myTouch { font-size: .9em; border-radius: 20px; }
+  .didier, .francois{     color: #FFF; font-size: 3em; margin-bottom: 2em; margin-top: 2em; }
 }
 @media screen and (min-width: 770px) {
   .myTouch { font-size: 2em; }
+  .didier, .francois{     color: #FFF; font-size: 5em; margin-bottom: 3em; margin-top: 3em; }
 }
