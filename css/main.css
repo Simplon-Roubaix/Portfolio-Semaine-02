@@ -3,28 +3,28 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+/* General */
 body {
     margin-top: 2em;
    	background-color: #EEE;
    }
-   /* Style sur encart citation */
+/* Style sur encart citation Index.html*/
 .myTouch{
 	background-color: #a4bcd6;
   font-size: 1.8em;
   font-weight: bolder;
   font-family: 'Nothing You Could Do', cursive;
 }
+/* Style sur Titre  Index.html*/
 .didier, .francois{
   color: #000;
   font-family: 'Nothing You Could Do', cursive;
-   font-size: 2.9em;
-
-   /*white-space: nowrap;*/
-   display: inline-block;
+  font-size: 2.9em;
+  margin: 0.4em auto;
+  display: inline-block;
 }
 /*  Vs entre 2 */
-.versus { color: #000; font-size: 2em; }
+.versus { color: #787987; font-size: 2em; }
 
 .navi ul {
    list-style: none;
@@ -66,9 +66,10 @@ body {
 @media screen and (min-width: 590px) {
   body{ background-image: url('../img/water.jpg'); }
   .myTouch { font-size: 1.3em; border-radius: 20px; }
-  .didier, .francois{     color: #FFF; font-size: 3em; margin-bottom: 2em; margin-top: 2em; }
+  .didier, .francois{  color: #FFF; font-weight: bolder; font-size: 4em; margin-bottom: .6em; margin-top: .6em; }
+  .versus { color: #000;}
 }
 @media screen and (min-width: 770px) {
   .myTouch { font-size: 2em; }
-  .didier, .francois{     color: #FFF; font-size: 5em; margin-bottom: 1.5em; margin-top: 1.5em; }
+  .didier, .francois{     color: #FFF; font-weight: bolder; font-size: 5em; margin-bottom: 1.1em; margin-top: 1.1em; }
 }
