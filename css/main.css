@@ -7,6 +7,11 @@ iframe {
 img {
     padding: 5px;
 }
+/*-------------------------- Portfolio's Pages ---------------------------*/
+.portfolio {
+    background-image: none;
+    padding-top: 0;
+}
 
 /* Head title page */
 .jumbotron {
@@ -28,12 +33,9 @@ background-color: #a4bcd6;
 .navbar-custom .navbar-brand {
     color:#000000;
 }
-/* ==========================================================================
-   Author's custom styles
-<<<<<<< HEAD
-   ==========================================================================
-=======
-   ========================================================================== */
+/*-------------------------- /Portfolio's Pages ---------------------------*/
+
+/*-------------------------- Accueil ---------------------------*/
 /* General */
 body {
     margin-top: 4.6em;
@@ -112,3 +114,16 @@ body {
   .myTouch { font-size: 2em; }
   .didier, .francois{     color: #FFF; font-weight: bolder; font-size: 5em; margin-bottom: 1.1em; margin-top: 1.1em; }
 }
+/*-------------------------- /Accueil ---------------------------*/
+
+/*-------------------------- Contact ---------------------------*/
+.circlepict {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+.argument {
+    color: white;
+}
+
+/*-------------------------- /Contact ---------------------------*/
