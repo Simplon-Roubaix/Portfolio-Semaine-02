@@ -2,7 +2,31 @@
     padding-top: 5px;
 }
 iframe {
-    padding-top: 5px;
+    padding: 5px;
+}
+img {
+    padding: 5px;
+}
+
+/* Head title page */
+.jumbotron {
+background-color: #a4bcd6;
+}
+
+/* navbar-custom */
+.navbar-custom {
+    background-color: #a4bcd6;
+    color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#000000;
 }
 /* ==========================================================================
    Author's custom styles
