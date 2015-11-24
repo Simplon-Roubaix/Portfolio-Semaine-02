@@ -56,6 +56,13 @@ body {
   margin: 0.4em auto;
   display: inline-block;
 }
+.francois2{
+  color: #000000;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 5em;
+  margin: 0.4em auto;
+  display: inline-block;
+}
 /*  Vs entre 2 */
 .versus { color: #787987; font-size: 2em; }
 /*  Barre navigation */
@@ -117,13 +124,24 @@ body {
 /*-------------------------- /Accueil ---------------------------*/
 
 /*-------------------------- Contact ---------------------------*/
+.contact {
+    background-image: none;
+    padding-top: 0;
+}
+
 .circlepict {
     width: 60%;
     height: 60%;
     border-radius: 50%;
 }
 .argument {
-    color: white;
+    color: black;
+    padding-top: 7%;
+}
+.fixed-bottom {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
 }
 
 /*-------------------------- /Contact ---------------------------*/
